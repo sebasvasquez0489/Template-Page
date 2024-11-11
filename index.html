@@ -10,61 +10,82 @@
   <title>Página de visualización en vivo: plantilla de juego589 lugx</title>
 </head>
 <body>
-<!-- Menú de navegación / logo -->
-    <header class="header-nav">
-      <img src="./img/main/logo.png" alt="Logo de LUGX Gaming">
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Our Shop</a></li>
-          <li><a href="#">Product Details</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">SIGN IN</a></li>
-        </ul>
-      </nav>
-    </header>
-
+  
   <!-- Contenido principal -->
   <main class="main">
+    <!-- Menú de navegación / logo -->
+        <header class="header-nav">
+          <img src="./img/main/logo.png" alt="Logo de LUGX Gaming">
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Our Shop</a></li>
+              <li><a href="#">Product Details</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">SIGN IN</a></li>
+            </ul>
+          </nav>
+        </header>
     <section class="main-container">
-      <h1>Welcome to lugx</h1>
-      <h2>BEST GAMING SITE EVER !</h2>
-      <p>LUGX Gaming is free Bootstrap 5 HTML CSS website template for your gaming websites. You can download and use this
-        layout
-        for commercial purposes. Please tell your friends about TemplateMo.</p>
-      <form action="#">
-        <input type="text" placeholder="Type Something">
-        <button tyte="submit">Search Now</button>
-      </form>
+      <div class="main-container-left">
+        <h1>Welcome to lugx</h1>
+        <h2>BEST GAMING SITE EVER !</h2>
+        <p>LUGX Gaming is free Bootstrap 5 HTML CSS website template for your gaming websites. You can download and use this
+          layout
+          for commercial purposes. Please tell your friends about TemplateMo.</p>
+        <form class="form-main">
+          <input type="text" placeholder="Type Something">
+          <button tyte="submit">Search Now</button>
+        </form>
+      </div>
       <figure class="image">
         <img src="./img/main/main.jpg" alt="Guerrero">
         <figcaption>
-          <span class="price">$22</span>
-          <span class="oferr">-40%</span>
+          <span class="oferta">-40%</span>
+          <span class="precio">$22</span>
         </figcaption>
       </figure>
     </section>
-  </main><hr>
+  </main>
 
   <!-- Opciones -->
   <section class="options-cards">
-    <div class="card-free">
-      <img src="/img/main/free storage.png" alt="Almacenamiento gratuito">
-      <h4>FREE STORAGE</h4>
-    </div>
-    <div class="card-user">
-      <img src="/img/main/user more.png" alt="Mas usuarios">
-      <h4>USER MORE</h4>
-    </div>
-    <div class="card-reply"> 
-      <img src="/img/main/reply ready.png" alt="Respuesta lista">
-      <h4>REPLY READY</h4>
-    </div>
-    <div class="card-easy">
-      <img src="/img/main/easy layout.png" alt="Diseño facil">
-      <h4>EASY LAYOUT</h4>
-    </div>
-  </section><hr>
+    <article class="free-card">
+      <div class="free-card-container">
+        <div class="free-item">
+          <img src="/img/main/free storage.png" alt="Almacenamiento gratuito">
+        </div>
+        <h4>FREE STORAGE</h4>
+      </div>
+    </article>
+
+    <article class="user-card">
+      <div class="user-card-container">
+        <div class="free-item">
+          <img src="/img/main/user more.png" alt="Mas usuarios">
+        </div>
+        <h4>USER MORE</h4>
+      </div>
+    </article>
+
+    <article class="reply-card">
+      <div class="reply-card-container"> 
+        <div class="free-item">
+          <img src="/img/main/reply ready.png" alt="Respuesta lista">
+        </div>
+        <h4>REPLY READY</h4>
+      </div>
+    </article>
+
+    <article class="easy-card">
+      <div class="easy-card-container">
+        <div class="free-item">
+          <img src="/img/main/easy layout.png" alt="Diseño facil">
+        </div>
+        <h4>EASY LAYOUT</h4>
+      </div>
+    </article>
+  </section>
 
   <!-- Tendencias -->
   <section class="trending-container">
