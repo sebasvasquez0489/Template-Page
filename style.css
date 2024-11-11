@@ -9,12 +9,6 @@ body {
   overflow-x: hidden;
 }
 
-.main {
-  background-image: url("./img/main/main-fondo.jpg");
-  background-repeat: no-repeat;
-  height: 120vh;
-  border-radius: 0px 0px 150px 150px;
-}
 
 .header-nav {
   position: relative;
@@ -50,6 +44,13 @@ body {
 }
 
 /* ----- CONTENIDO PRINCIPAL ----- */
+.main {
+  background-image: url("./img/main/main-fondo.jpg");
+  background-repeat: no-repeat;
+  height: 120vh;
+  border-radius: 0px 0px 150px 150px;
+}
+
 .main-container {
   position: relative;
   width: 100%;
@@ -58,7 +59,7 @@ body {
   /* background-color: green; */
 }
 
-/* ----- CONTENIDO DE LA IZQUIERDA ----- */
+/* ----- CONTENIDO PRINCIPAL DE LA IZQUIERDA ----- */
 .main-container-left{
   position: absolute;
   margin-left: 150px;
@@ -114,6 +115,7 @@ body {
   color: #fff;
   font-size: 15px;
   text-transform: uppercase;
+  cursor:pointer;
 }
 
 .form-main button:hover {
@@ -165,11 +167,12 @@ figcaption .precio {
   bottom: 440px;
 }
 
-/* ----- CONTENIDO DE LA INFERIOR ----- */
+/* ----- CONTENIDO INFERIOR ----- */
 .options-cards {
   height: 205px;
   margin: -80px 0px 0px;
   padding: 0px 130px 0px 145px;
+  cursor: pointer;
 }
 
 .free-card, .user-card, .reply-card, .easy-card {
@@ -182,7 +185,6 @@ figcaption .precio {
   background-color: #fff;
   text-align: center;
 }
-
 
 .user-card {
   left: 477px;
@@ -224,7 +226,6 @@ figcaption .precio {
   
 }
 
-
 .free-item img {
   position: relative;
   overflow: hidden;
@@ -243,4 +244,155 @@ figcaption .precio {
   font-size: 17px;
   color: #1e1e1e;
   font-weight: 700;
+}
+
+/* ----- TENDENCIAS ----- */
+.trending-container {
+  position: absolute;
+  height: 504px;
+  width: 100%;
+  margin: 120px 0px 0px;
+  padding: 0px 130px;
+}
+
+.trending-title {
+  height: 152px;
+  width: 660px;
+}
+
+.trending-title h6 {
+  color: #ee626b;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.trending-title h2 {
+  color: #1e1e1e;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 20px;
+  line-height: 44px;
+}
+
+.trending-button {
+  height: 152px;
+  width: 660px;
+  position: relative;
+  left: 660px;
+  bottom: 152px;
+}
+
+.trending-button {
+  margin-top: 32px;
+  height: 50px; 
+}
+
+.trending-button button {
+  position: absolute;
+  right: 0;
+  background-color:  #ee626b;
+  height: 50px;
+  width: 122px;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 50px;
+  padding: 0px 30px;
+}
+ 
+.item-01 , .item-02, .item-03, .item-04 {
+  position: absolute;
+  height: 322px;
+  width: 306px;
+  bottom: 30px;
+  border-radius: 25px;
+  background-color: #cacfd4;
+}
+
+.item-01 img {
+  position: relative;
+  height: 224px;
+  width: 306px;
+  border-radius: 25px;
+}
+
+.item-02 {
+  position: absolute;
+  left: 340px;
+  top: 0px;
+}
+
+.item-03 {
+  position: absolute;
+  left: 680px;
+  top: 0px;
+}
+
+.item-04 {
+  position: absolute;
+  left: 1018px;
+  top: 0px;
+}
+
+.precio-item {
+  text-align: right;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  border-radius: 10px;
+  background-color: #008af8;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  padding: 8px 15px 6px 15px;
+}
+
+.precio-item em {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: line-through;
+  display: block;
+}
+
+.item-container {
+  position: relative;
+  bottom: 3px;
+  height: 98px;
+  padding: 25px;
+  font-size: 16px;
+}
+
+.item-container span {
+  font-size: 14px;
+  color: #7a7a7a;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.item-container h4 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.icon-container {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  bottom: 30px;
+  right: 25px;
+  background-color: #ee626b;
+  border-radius: 50%;
+}
+
+.icon-container i {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  color: #fff;
 }
