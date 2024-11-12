@@ -302,40 +302,76 @@ figcaption .precio {
   font-weight: 600;
   line-height: 50px;
   padding: 0px 30px;
+  cursor: pointer;
 }
- 
+
+.trending-button button:hover {
+  background-color: #0d6efd;
+}
+
 .item-01 , .item-02, .item-03, .item-04 {
   position: absolute;
   height: 322px;
   width: 306px;
   bottom: 30px;
   border-radius: 25px;
-  background-color: #cacfd4;
+  background-color: #eeeeee;
 }
 
-.item-01 img {
+.item-01 img, .item-02 img, .item-03 img, .item-04 img {
   position: relative;
   height: 224px;
   width: 306px;
   border-radius: 25px;
+  cursor: pointer;
+}
+
+.item-01 {
+  position: absolute;
+  left: 144px;
 }
 
 .item-02 {
   position: absolute;
-  left: 340px;
-  top: 0px;
+  left: 474px;
+  top: 150px;
 }
 
 .item-03 {
   position: absolute;
-  left: 680px;
-  top: 0px;
+  right: 474px;
+  top: 150px;
 }
 
 .item-04 {
   position: absolute;
-  left: 1018px;
-  top: 0px;
+  right: 144px;
+  top: 150px;
+}
+
+.item-01:hover .item-container  {
+  color: #0d6efd;
+}
+.item-01:hover .icon-container  {
+  background-color: #0d6efd;
+}
+.item-02:hover .item-container  {
+  color: #0d6efd;
+}
+.item-02:hover .icon-container  {
+  background-color: #0d6efd;
+}
+.item-03:hover .item-container  {
+  color: #0d6efd;
+}
+.item-03:hover .icon-container  {
+  background-color: #0d6efd;
+}
+.item-04:hover .item-container  {
+  color: #0d6efd;
+}
+.item-04:hover .icon-container  {
+  background-color: #0d6efd;
 }
 
 .precio-item {
@@ -396,3 +432,5 @@ figcaption .precio {
   right: 12px;
   color: #fff;
 }
+
+
