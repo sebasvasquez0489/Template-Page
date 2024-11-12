@@ -7,6 +7,9 @@
 body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
+  min-height: 100vh;
+  height: auto;
+
 }
 
 
@@ -248,11 +251,12 @@ figcaption .precio {
 
 /* ----- TENDENCIAS ----- */
 .trending-container {
-  position: absolute;
+  position: relative;
   height: 504px;
   width: 100%;
   margin: 120px 0px 0px;
   padding: 0px 130px;
+
 }
 
 .trending-title {
@@ -434,3 +438,71 @@ figcaption .precio {
 }
 
 
+/* ----- TOP MEJORES JUEGOS ----- */
+.topGames-container {
+  height: 696px;
+  width: 100%;
+  background-color: green;
+  border-radius: 150px;
+  padding: 100px 0px;
+  margin: 120px 0px 0px;
+}
+
+.topGames-title {
+  margin: 0;
+}
+
+.topGames-title {
+  position: relative;
+  height: 152px;
+  width: 660px;
+  background-color: #1e1e1e;
+  left: 130px;
+}
+
+.topGames-button {
+  position: relative;
+  height: 152px;
+  width: 660px;
+  background-color: #10767d;
+  left: 790px;
+  bottom: 152px;
+}
+
+.topGames-items {
+  background-color: #eeeeee;
+  height: 344px;
+  width: 220px;
+
+}
+
+.topGames-item-01, .topGames-item-02,.topGames-item-03, .topGames-item-04, .topGames-item-05, .topGames-item-06 {
+  position: absolute;
+  height: 344px;
+  width: 220px;
+  background-color: aqua;
+}
+
+.topGames-item-01 {
+  left: 130px;
+}
+
+.topGames-item-02 {
+  left: 350px;
+}
+
+.topGames-item-03 {
+  left: 570px;
+
+}
+
+.topGames-item-04 {
+  left: 793px;
+}
+
+.topGames-item-05 {
+  right: 350px;
+}
+.topGames-item-06 {
+  right: 130px;
+}
