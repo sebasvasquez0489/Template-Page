@@ -656,5 +656,57 @@ figcaption .precio {
 
 
 /* ----- TOP CATEGORIAS ----- */
+.categories {
+  background-color: green;
+  height: 471px;
+  margin: 120px 0px 0px;
+}
 
+.categories-title {
+  background-color: blue;
+  height: 152px;
+  width: 1296px;
+  margin-left: 150px;
+  text-align: center;
+}
 
+.categories-title h6 {
+  color: #ee626b;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.categories-title h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 20px;
+  line-height: 44px;
+}
+
+.categories-items {
+  background-color: yellow;
+  height: 319px;
+}
+
+.categories-items img {
+  width: 240px;
+  height: 225px;
+  position: relative;
+  top: 44px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.categories-item-01, .categories-item-02, .categories-item-03, .categories-item-04, .categories-item-05{
+  position: relative;
+  height: 289px;
+  width: 240px;
+  background-color: #0071f8;
+  position: relative;
+  border-radius: 25px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #f7f7f7;
+  font-size: 17px;
+}
