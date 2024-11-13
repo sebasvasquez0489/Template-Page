@@ -304,7 +304,6 @@ figcaption .precio {
   color: #fff;
   font-size: 14px;
   font-weight: 600;
-  line-height: 50px;
   padding: 0px 30px;
   cursor: pointer;
 }
@@ -442,67 +441,220 @@ figcaption .precio {
 .topGames-container {
   height: 696px;
   width: 100%;
-  background-color: green;
+  background-color: #f7f7f7;
   border-radius: 150px;
   padding: 100px 0px;
   margin: 120px 0px 0px;
 }
 
 .topGames-title {
-  margin: 0;
-}
-
-.topGames-title {
   position: relative;
   height: 152px;
-  width: 660px;
-  background-color: #1e1e1e;
-  left: 130px;
+  width: 636px;
+  margin: 0;
+  left: 150px;
+}
+
+.topGames-title h6 {
+  color: #ee626b;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.topGames-title h2 {
+  color: #1e1e1e;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 20px;
+  line-height: 44px;
 }
 
 .topGames-button {
   position: relative;
   height: 152px;
-  width: 660px;
-  background-color: #10767d;
-  left: 790px;
+  width: 662px;
+  left: 786px;
   bottom: 152px;
 }
 
-.topGames-items {
-  background-color: #eeeeee;
-  height: 344px;
-  width: 220px;
+.topGames-button button {
+  position: absolute;
+  top: 25px;
+  right: 0;
+  background-color:  #ee626b;
+  height: 50px;
+  width: 122px;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0px 30px;
+  cursor: pointer;
+}
 
+.topGames-button:hover button {
+  background-color: #0d6efd;
+}
+
+.topGames-items img {
+  height: 196px;
+  width: 196px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.topGames-items {
+  height: 344px;
+  width: 1296px;
+  position: relative;
+  left: 150px;
+  bottom: 150px;
+}
+
+.topGames-items button {
+  position: absolute;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  padding: 0px 15px;
+  background-color: #ee626b;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -20px;
+}
+
+.topGames-items-text {
+  height: 108px;
+  text-align: center;
+  padding: 20px 15px 40px 15px;
+}
+
+.topGames-items span {
+  color: #7a7a7a;
+  font-size: 14px;
+}
+
+.topGames-items h4 {
+  color: #1e1e1e;
+  font-size: 17px;
+  margin-top: 5px;
 }
 
 .topGames-item-01, .topGames-item-02,.topGames-item-03, .topGames-item-04, .topGames-item-05, .topGames-item-06 {
   position: absolute;
-  height: 344px;
-  width: 220px;
-  background-color: aqua;
+  height: 304px;
+  width: 196px;
+  border-radius: 25px;
+  background-color: #fff;
+  padding: 0px 12px;
 }
 
 .topGames-item-01 {
-  left: 130px;
+  left: 0px;
+}
+
+.topGames-item-01 img {
+  position: relative;
+  left: -12px;
+}
+
+.topGames-item-01:hover button {
+  background-color: #0d6efd;
+}
+.topGames-item-01:hover h4 {
+  color: #0d6efd;
 }
 
 .topGames-item-02 {
-  left: 350px;
+  left: 220px;
+}
+
+.topGames-item-02 img {
+  position: relative;
+  left: -12px;
+}
+
+.topGames-item-02:hover button {
+  background-color: #0d6efd;
+}
+.topGames-item-02:hover h4 {
+  color: #0d6efd;
 }
 
 .topGames-item-03 {
-  left: 570px;
+  left: 440px;
+}
 
+.topGames-item-03 img {
+  position: relative;
+  left: -12px;
+}
+
+.topGames-item-03:hover button {
+  background-color: #0d6efd;
+}
+
+.topGames-item-03:hover h4 {
+  color: #0d6efd;
 }
 
 .topGames-item-04 {
-  left: 793px;
+  right: 440px;
+}
+
+.topGames-item-04 img {
+  position: relative;
+  left: -12px;
+}
+
+.topGames-item-04:hover button {
+  background-color: #0d6efd;
+}
+.topGames-item-04:hover h4 {
+  color: #0d6efd;
 }
 
 .topGames-item-05 {
-  right: 350px;
+  right: 220px;
 }
+
+.topGames-item-05 img {
+  position: relative;
+  left: -12px;
+}
+
+.topGames-item-05:hover button {
+  background-color: #0d6efd;
+}
+.topGames-item-05:hover h4 {
+  color: #0d6efd;
+}
+
 .topGames-item-06 {
-  right: 130px;
+  right: 0px;
 }
+
+.topGames-item-06 img {
+  position: relative;
+  left: -12px;
+}
+
+.topGames-item-06:hover button {
+  background-color: #0d6efd;
+}
+.topGames-item-06:hover h4 {
+  color: #0d6efd;
+}
+
+
+/* ----- TOP CATEGORIAS ----- */
+
+
