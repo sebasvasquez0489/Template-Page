@@ -657,16 +657,15 @@ figcaption .precio {
 
 /* ----- TOP CATEGORIAS ----- */
 .categories {
-  background-color: green;
   height: 471px;
   margin: 120px 0px 0px;
 }
 
 .categories-title {
-  background-color: blue;
   height: 152px;
   width: 1296px;
   margin-left: 150px;
+  margin-right: 150px;
   text-align: center;
 }
 
@@ -685,28 +684,197 @@ figcaption .precio {
 }
 
 .categories-items {
-  background-color: yellow;
   height: 319px;
+  padding-left: 150px;
 }
 
 .categories-items img {
   width: 240px;
   height: 225px;
   position: relative;
-  top: 44px;
+  top: 20px;
   border-radius: 25px;
   overflow: hidden;
 }
 
 .categories-item-01, .categories-item-02, .categories-item-03, .categories-item-04, .categories-item-05{
-  position: relative;
   height: 289px;
   width: 240px;
+  position: absolute;
   background-color: #0071f8;
-  position: relative;
   border-radius: 25px;
   text-align: center;
   margin-bottom: 30px;
   color: #f7f7f7;
   font-size: 17px;
 }
+
+.categories-item-02 {
+  left: 414px 
+}
+.categories-item-03 {
+  left: 676px;
+}
+.categories-item-04 {
+  left: 938px;
+}
+.categories-item-05 {
+  right: 140px;
+}
+
+.categories-items h4 {
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+/* ----- SECCION CTA ----- */
+.cta-container {
+  height: 616PX;
+  margin: 120px 0px 0px;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+.ourshop {
+  position: absolute;
+  width: 526px;
+  height: 536px;
+  padding: 80px;
+  margin: 80px 0px 0px;
+  background-color: #f7f7f7;
+  border-radius: 25px;
+}
+
+figure {
+  z-index: -1;
+  position: relative;
+  left: 370px;
+}
+
+.cta-container img {
+  width: 550px;
+  height: 510px;
+  border-radius: 25px;
+  top: 0;
+  z-index: -1;
+}
+
+.ourshop h6 {
+  color: #ee626b;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.ourshop h2 em {
+  font-style: normal;
+  color: #0071f8;
+}
+
+.ourshop h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 20px;
+  line-height: 44px;
+}
+
+.ourshop p {
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 50px;
+  line-height: 28px;
+  color: #4a4a4a;
+  font-weight: 600;
+}
+
+.ourshop button {
+  position: relative;
+  background-color: #ee626b;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  height: 50px;
+  line-height: 50px;
+  padding: 0px 30px;
+  border: none;
+  border-radius: 25px;
+  top: 50px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0071f8;
+}
+
+.newsletter {
+  position: relative;
+  left: 770px;
+  bottom: 320px;
+  width: 526px;
+  height: 430px;
+  border-radius: 25px;
+  padding: 80px 60px;
+  background-color: #f7f7f7;
+}
+
+.newsletter h6 {
+  color: #ee626b;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.newsletter h2 {
+    font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 20px;
+  line-height: 44px;
+}
+
+.newsletter h2 em {
+  font-style: normal;
+  color: #0071f8;
+}
+
+.newsletter input {
+  width: 406px;
+  height: 50px;
+  padding: 0px 25px;
+  border: none;
+  border-radius: 25px;
+  background-color: #fff;
+  font-size: 14px;
+  color: #7a7a7a;
+}
+
+input:focus {
+  border: 3px solid #007BFF; 
+  outline: none; 
+}
+
+.newsletter button {
+  display: inline-block;
+  position: absolute;
+  left: 235px;
+  height: 50px;
+  width: 171px;
+  border-radius: 25px;
+  border: none;
+  background-color: #ee626b;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor:pointer;
+}
+
+.newsletter form {
+  position: absolute;
+  bottom:  75px;
+}
+
+button:hover {
+  background-color: #0071f8;
+}
+
